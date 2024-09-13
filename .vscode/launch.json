@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ContacorrenteApplication<contacorrente>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fatecrl.contacorrente.ContacorrenteApplication",
+            "projectName": "contacorrente",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
