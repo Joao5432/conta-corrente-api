@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: contacorrente
+    datasource:
+        url: jdbc:postgresql://localhost:5432/financas_fatec?currentSchema=contas
+        username: fatec
+        password: F@tec2022
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+    show-sql: true        
+server:
+    servlet: 
+        contextPath: /api
+    port: 8090  

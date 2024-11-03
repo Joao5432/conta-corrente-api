@@ -1,0 +1,22 @@
+spring:
+    application:
+        name: contacorrente
+    datasource:
+        url: jdbc:mysql://localhost:3306/financas_fatec?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useTimezone=true&serverTimezone=UTC&useSSL=false
+        username: fatec
+        password: F@tec2022
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+server:
+    servlet: 
+        contextPath: /api
+    port: 8090  
+       
+springdoc:
+    api-docs:
+        path: /api-docs
